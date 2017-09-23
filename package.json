@@ -1,0 +1,23 @@
+{
+  "name": "speakeasy",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "bulma": "^0.5.3",
+    "capture-video-frame": "^0.1.2",
+    "firebase": "^4.4.0",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-player": "^0.24.5",
+    "react-scripts": "1.0.13",
+    "recordrtc": "^5.4.2",
+    "rxjs": "^5.4.3"
+  },
+  "scripts": {
+    "deploy": "react-scripts build && firebase deploy",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
